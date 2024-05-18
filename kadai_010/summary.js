@@ -1,0 +1,20 @@
+$(function(){
+  $('#change-color').on('click',function(){
+    $('#target').addClass('color');
+  });
+  $(function(){
+    $('#change-text').on('click',function(){
+      $('p').text('Hello!!');
+    });
+  });
+  $(function(){
+    $('#fade-out').on('click',function(){
+      $('#target').fadeOut();
+    });
+  });
+  $(function(){
+    $('#fade-in').on('click',function(){
+      $('#target').fadeIn();
+    });
+  });  
+});
